@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="org.demon.dao.UserDao">
+    <!-- 配置数据库操作， id 为方法名称，resultType 是返回值类型 -->
+    <select id="findAll" resultType="org.demon.domain.User">
+        select * from t_user;
+    </select>
+</mapper>

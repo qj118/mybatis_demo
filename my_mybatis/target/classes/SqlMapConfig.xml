@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!-- 配置 mybatis 的环境 -->
+    <environments default="mysql">
+        <!-- 配置 mysql 环境 -->
+        <environment id="mysql">
+            <!-- 配置事务管理器类型 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置连接数据库的信息： -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///test?serverTimezone=Asia/Shanghai"/>
+                <property name="username" value="root"/>
+                <property name="password" value="1234567"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 配置 mapper 的位置 -->
+    <mappers>
+<!--        <mapper resource="org/demon/dao/UserDao.xml"></mapper>-->
+        <mapper class="org.demon.dao.UserDao"></mapper>
+    </mappers>
+</configuration>
