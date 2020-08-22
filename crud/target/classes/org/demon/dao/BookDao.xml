@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0/EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.demon.dao.BookDao">
+    <resultMap id="bookMap" type="org.demon.domain.Book">
+        <id column="id" property="bookId"/>
+        <result column="name" property="bookName"/>
+        <result column="author" property="bookAuthor"/>
+    </resultMap>
+
+    <select id="findAll" resultMap="bookMap">
+        select * from t_book
+    </select>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="org.demon.domain.Book">
+        select id as bookId, name as bookName, author as bookAuthor from t_book where id = #{bId};
+    </select>
+</mapper>

@@ -15,5 +15,6 @@
 
     <mappers>
         <mapper resource="org/demon/dao/UserDao.xml"></mapper>
+        <mapper resource="org/demon/dao/BookDao.xml"></mapper>
     </mappers>
 </configuration>

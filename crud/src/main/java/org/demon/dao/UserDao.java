@@ -1,6 +1,7 @@
 package org.demon.dao;
 
 import org.demon.domain.User;
+import org.demon.vo.UserVo;
 
 import java.util.List;
 
@@ -19,4 +20,6 @@ public interface UserDao {
     List<User> findByName(String username);
 
     Integer count();
+
+    List<User> findByVo(UserVo vo);
 }

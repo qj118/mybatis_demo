@@ -27,7 +27,7 @@
     </update>
 
     <delete id="deleteUser" parameterType="java.lang.Integer">
-        delete from t_user where id = #{uId}
+        delete from t_user where id = #{uId};
     </delete>
 
     <select id="findById" resultType="org.demon.domain.User">
@@ -40,5 +40,9 @@
 
     <select id="count" resultType="java.lang.Integer">
         select count(*) from t_user;
+    </select>
+
+    <select id="findByVo" parameterType="org.demon.vo.UserVo" resultType="org.demon.domain.User">
+        select * from t_user where username like #{user.username}
     </select>
 </mapper>
