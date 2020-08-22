@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.demon</groupId>
-    <artifactId>my_mybatis</artifactId>
+    <artifactId>crud</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -20,9 +20,9 @@
             <version>8.0.18</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.3</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -30,14 +30,11 @@
             <version>4.10</version>
         </dependency>
         <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>1.6.1</version>
-        </dependency>
-        <dependency>
-            <groupId>jaxen</groupId>
-            <artifactId>jaxen</artifactId>
-            <version>1.2.0</version>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
+
+
 </project>

@@ -12,3 +12,7 @@ MyBatis 边学边敲 - [视频教程](https://www.bilibili.com/video/BV1mE411X7y
 
 mybatis 底层框架的简单实现，util包中的代码是导入的。
 
+### crud
+
+最基本的增删改查操作。
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0/EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.demon.dao.UserDao">
+    <select id="findAll" resultType="org.demon.domain.User">
+        select * from t_user;
+    </select>
+
+    <!-- 增：需要指定参数类型
+         用 #{xxx} 类获取对象的属性值，但需要注意的是 xxx 并不代表属性名，而是 get 方法着的 xxx-->
+    <insert id="saveUser" parameterType="org.demon.domain.User">
+        insert into t_user(username, birthday, sex, address)
+        values(#{username}, #{birthday}, #{sex}, #{address});
+        <!--
+            keyColumn 数据库中的字段名，
+            keyProperty 实体类中的属性名，
+            resultType 返回值类型，
+            order 在 insert 执行之前执行还是之后执行。
+         -->
+        <selectKey keyColumn="id" keyProperty="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+    </insert>
+
+    <update id="updateUser" parameterType="org.demon.domain.User">
+        update t_user set username = #{username}, birthday = #{birthday}, sex = #{sex}, address = #{address}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from t_user where id = #{uId}
+    </delete>
+
+    <select id="findById" resultType="org.demon.domain.User">
+        select * from t_user where id = #{uId};
+    </select>
+
+    <select id="findByName" resultType="org.demon.domain.User">
+        select * from t_user where username like #{username};
+    </select>
+
+    <select id="count" resultType="java.lang.Integer">
+        select count(*) from t_user;
+    </select>
+</mapper>
