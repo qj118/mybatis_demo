@@ -1,0 +1,10 @@
+package org.demon.dao;
+
+import org.demon.domain.User;
+
+import java.util.List;
+
+public interface UserDao {
+
+    List<User> findAll();
+}
