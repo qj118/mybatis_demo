@@ -24,3 +24,7 @@ mybatis 底层框架的简单实现，util包中的代码是导入的。
 
 在 mapper 配置文件中用标签实现动态sql语句。
 
+### one2many/many2many
+
+多表查询的实现。
+
