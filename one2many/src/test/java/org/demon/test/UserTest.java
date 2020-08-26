@@ -6,17 +6,15 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.demon.dao.UserDao;
 import org.demon.domain.User;
-import org.demon.vo.UserVo;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
-public class MybatisTest {
+public class UserTest {
 
     private InputStream in;
     private SqlSession session;
@@ -38,30 +36,12 @@ public class MybatisTest {
     }
 
     @Test
-    public void testFindByCondtion(){
-        User user = new User();
-
-        user.setUsername("i");
-        user.setAddress("i");
-
-        List<User> users = userDao.findByCondition(user);
-        for(User res : users){
-            System.out.println(res);
-        }
-    }
-
-    @Test
-    public void testFindByInIds(){
-        UserVo vo = new UserVo();
-        List<Integer> ids = new ArrayList<>();
-        ids.add(4);
-        ids.add(6);
-        ids.add(9);
-        vo.setIds(ids);
-
-        List<User> users = userDao.findByInIds(vo);
+    public void testFindAll(){
+        List<User> users = userDao.findAll();
         for(User user: users){
+            System.out.println("------- "+ user.getUsername() + " 信息-------");
             System.out.println(user);
+            System.out.println(user.getAccounts());
         }
     }
 }

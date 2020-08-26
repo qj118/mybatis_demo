@@ -4,23 +4,21 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.demon.dao.UserDao;
-import org.demon.domain.User;
-import org.demon.vo.UserVo;
+import org.demon.dao.AccountDao;
+import org.demon.domain.Account;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
-public class MybatisTest {
+public class AccountTest {
 
     private InputStream in;
     private SqlSession session;
-    private UserDao userDao;
+    private AccountDao accountDao;
 
     @Before
     public void init() throws IOException {
@@ -28,7 +26,7 @@ public class MybatisTest {
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory factory = builder.build(in);
         session = factory.openSession();
-        userDao = session.getMapper(UserDao.class);
+        accountDao = session.getMapper(AccountDao.class);
     }
 
     @After
@@ -38,30 +36,11 @@ public class MybatisTest {
     }
 
     @Test
-    public void testFindByCondtion(){
-        User user = new User();
-
-        user.setUsername("i");
-        user.setAddress("i");
-
-        List<User> users = userDao.findByCondition(user);
-        for(User res : users){
-            System.out.println(res);
-        }
-    }
-
-    @Test
-    public void testFindByInIds(){
-        UserVo vo = new UserVo();
-        List<Integer> ids = new ArrayList<>();
-        ids.add(4);
-        ids.add(6);
-        ids.add(9);
-        vo.setIds(ids);
-
-        List<User> users = userDao.findByInIds(vo);
-        for(User user: users){
-            System.out.println(user);
+    public void testFindAll(){
+        List<Account> accounts = accountDao.findAll();
+        for(Account a : accounts){
+            System.out.println(a);
+            System.out.println(a.getUser());
         }
     }
 }
