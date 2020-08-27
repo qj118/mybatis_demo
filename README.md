@@ -30,9 +30,12 @@ mybatis 底层框架的简单实现，util包中的代码是导入的。
 
 ### jndi
 
-jndi 连接池模式的简单实验
+jndi 连接池模式的简单演示。
 
 ### lazy_loading
 
 懒加载的简单实现
 
+### cache
+
+mybatis 缓存的简单演示。
