@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jndi:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9537090b-4942-43c0-a719-aa332ada5a61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/procedure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/java/org/demon/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/java/org/demon/dao/StatusGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/java/org/demon/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/java/org/demon/domain/StatusGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/resources/mybatis_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/resources/org/demon/dao/BookDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/main/resources/org/demon/dao/StatusGroupDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/test/java/org/demon/test/ProcedureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procedure/src/test/java/org/demon/test/SqlServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\SDK\Maven\apache-maven-3.6.2\repository" />
+        <option name="mavenHome" value="D:\SDK\Maven\apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\SDK\Maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gM8Twbw1ff200ONawLvwPPMKJe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.44815668" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\dao_crud\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.demon.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.demon.test" />
+      <recent name="org.demon.dao" />
+      <recent name="org.demon.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\cache\src\main\resources" />
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\lazy_loading\src\test\java" />
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\lazy_loading\src\main\resources\org\demon\dao" />
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\lazy_loading\src\main\java" />
+      <recent name="F:\MyProjects\IDEAProjects\mybatis_Demo\lazy_loading\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SqlServerTest.testConnect">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testOne2Many" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testOne2Many" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcedureTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="procedure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.test.ProcedureTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcedureTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="procedure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.test.ProcedureTest" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLevelCacheTest.testSecondLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.test.SecondLevelCacheTest" />
+      <option name="METHOD_NAME" value="testSecondLevelCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlServerTest.testConnect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="procedure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.test.SqlServerTest" />
+      <option name="METHOD_NAME" value="testConnect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jndi" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jndi_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jndi:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/jndi_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mybatis_Demo_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49870" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jndi:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SqlServerTest.testConnect" />
+        <item itemvalue="JUnit.ProcedureTest.testFindAll" />
+        <item itemvalue="JUnit.ProcedureTest.testFindById" />
+        <item itemvalue="JUnit.SecondLevelCacheTest.testSecondLevelCache" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testOne2Many" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9537090b-4942-43c0-a719-aa332ada5a61" name="Default Changelist" comment="" />
+      <created>1597913112248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597913112248</updated>
+      <workItem from="1597913113751" duration="848000" />
+      <workItem from="1597968224948" duration="10145000" />
+      <workItem from="1597987685926" duration="12306000" />
+      <workItem from="1598053957720" duration="17942000" />
+      <workItem from="1598226845856" duration="18675000" />
+      <workItem from="1598313127700" duration="19999000" />
+      <workItem from="1598400260197" duration="10698000" />
+      <workItem from="1598419504242" duration="50000" />
+      <workItem from="1598419566410" duration="11114000" />
+      <workItem from="1598486158486" duration="24652000" />
+      <workItem from="1598573074369" duration="9320000" />
+      <workItem from="1598594176634" duration="4292000" />
+      <workItem from="1599460239854" duration="593000" />
+      <workItem from="1600217925395" duration="8338000" />
+      <workItem from="1600227551972" duration="5612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/MyProjects/IDEAProjects/mybatis_Demo/dao_crud/src/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2360" y="94" key="#Project_Structure" timestamp="1598420422685">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598420422685" />
+    <state x="2257" y="361" key="#SQL_Dialects" timestamp="1598073629963">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2257" y="361" key="#SQL_Dialects/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598073629963" />
+    <state x="2472" y="178" width="1092" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598428457287">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="178" width="1092" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598428457287" />
+    <state x="2603" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598412046722">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2603" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598412046722" />
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600226676945">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600226676945" />
+    <state x="2470" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598411343310">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2470" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598411343310" />
+    <state x="2656" y="387" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598411338772">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2656" y="387" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598411338772" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1600223253186">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598421345338" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600223253186" />
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1600234949396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600234949396" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1600234949396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600234949396" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1600234949396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600234949396" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1600234949396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600234949396" />
+    <state width="1293" height="369" key="GridCell.Tab.1.bottom" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1293" height="369" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.1.center" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1293" height="369" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.1.left" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1293" height="369" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.1.right" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1293" height="369" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.2.bottom" timestamp="1598432316387">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765641" />
+    <state width="1293" height="369" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316387" />
+    <state width="1293" height="369" key="GridCell.Tab.2.center" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765641" />
+    <state width="1293" height="369" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.2.left" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765640" />
+    <state width="1293" height="369" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state width="1293" height="369" key="GridCell.Tab.2.right" timestamp="1598432316386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="369" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429765641" />
+    <state width="1293" height="369" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598432316386" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1598421346743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="223" key="NewModule_or_Project.wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598421346743" />
+    <state x="2520" y="223" key="NewModule_or_Project.wizard/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598420358101" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1598577343234">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="416" y="106" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598421362272" />
+    <state x="2360" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598577343234" />
+    <state x="250" y="0" width="1333" height="724" maximized="true" key="dock-window-1" timestamp="1600219068542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="0" width="1333" height="724" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600219068542" />
+    <state x="238" y="0" width="1424" height="692" maximized="true" key="dock-window-2" timestamp="1600219068542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="238" y="0" width="1424" height="692" maximized="true" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600219068542" />
+    <state x="0" y="0" width="1333" height="724" key="dock-window-3" timestamp="1600227855528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1333" height="724" key="dock-window-3/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600227855528" />
+    <state x="76" y="0" width="1424" height="692" maximized="true" key="dock-window-4" timestamp="1598333771301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="76" y="0" width="1424" height="692" maximized="true" key="dock-window-4/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598333771301" />
+    <state x="2405" y="92" key="new project wizard" timestamp="1600218671149">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="92" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598429262124" />
+    <state x="2405" y="92" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600218671149" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600232832769">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600232832769" />
+  </component>
+</project>

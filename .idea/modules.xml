@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud/crud.iml" filepath="$PROJECT_DIR$/crud/crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao_crud/dao_crud.iml" filepath="$PROJECT_DIR$/dao_crud/dao_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic_sql/dynamic_sql.iml" filepath="$PROJECT_DIR$/dynamic_sql/dynamic_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_world/hello_world.iml" filepath="$PROJECT_DIR$/hello_world/hello_world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jndi/jndi.iml" filepath="$PROJECT_DIR$/jndi/jndi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lazy_loading/lazy_loading.iml" filepath="$PROJECT_DIR$/lazy_loading/lazy_loading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many2many/many2many.iml" filepath="$PROJECT_DIR$/many2many/many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_mybatis/my_mybatis.iml" filepath="$PROJECT_DIR$/my_mybatis/my_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mybatis_Demo.iml" filepath="$PROJECT_DIR$/.idea/mybatis_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one2many/one2many.iml" filepath="$PROJECT_DIR$/one2many/one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/procedure/procedure.iml" filepath="$PROJECT_DIR$/procedure/procedure.iml" />
+    </modules>
+  </component>
+</project>

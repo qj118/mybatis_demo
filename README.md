@@ -43,3 +43,7 @@ mybatis 缓存的简单演示。
 ### annotation
 
 基于注解方式的开发：crud，结果封装，多表查询，缓存。
+
+### procedure
+
+mybatis 调用存储过程。

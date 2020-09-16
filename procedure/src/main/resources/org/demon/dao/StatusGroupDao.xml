@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper EN/3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.demon.dao.StatusGroupDao">
+
+    <!--
+        ALTER PROCEDURE LMS_Status_Group
+        @start AS date ,
+        @end AS date
+        AS
+        BEGIN
+	        select WorkOrderStatusID as statusId, count(*) as statusCount
+            from LMS_WorkOrder
+            where starttime between @start and @end
+            group by WorkOrderStatusID
+        END
+    -->
+    <select id="group" statementType="CALLABLE" resultType="StatusGroup" >
+        { call LMS_Status_Group(
+        #{param1, mode = IN, jdbcType=DATE},
+        #{param2, mode = IN, jdbcType=DATE}
+        )}
+    </select>
+</mapper>

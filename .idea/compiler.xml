@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crud" />
+        <module name="annotation" />
+        <module name="my_mybatis" />
+        <module name="many2many" />
+        <module name="cache" />
+        <module name="lazy_loading" />
+        <module name="hello_world" />
+        <module name="dynamic_sql" />
+        <module name="one2many" />
+        <module name="jndi" />
+        <module name="procedure" />
+        <module name="dao_crud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotation" target="13" />
+      <module name="cache" target="13" />
+      <module name="crud" target="13" />
+      <module name="dao_crud" target="13" />
+      <module name="dynamic_sql" target="13" />
+      <module name="hello_world" target="13" />
+      <module name="jndi" target="13" />
+      <module name="lazy_loading" target="13" />
+      <module name="many2many" target="13" />
+      <module name="my_mybatis" target="13" />
+      <module name="one2many" target="13" />
+      <module name="procedure" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

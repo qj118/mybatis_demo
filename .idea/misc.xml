@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jndi" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/crud/pom.xml" />
+        <option value="$PROJECT_DIR$/dao_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic_sql/pom.xml" />
+        <option value="$PROJECT_DIR$/hello_world/pom.xml" />
+        <option value="$PROJECT_DIR$/my_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/jndi/pom.xml" />
+        <option value="$PROJECT_DIR$/lazy_loading/pom.xml" />
+        <option value="$PROJECT_DIR$/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/procedure/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="13" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper EN/3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.demon.dao.BookDao">
+    <resultMap id="bookMap" type="book">
+        <id property="bookId" column="id"/>
+        <result property="bookName" column="name"/>
+        <result property="bookAuthor" column="author"/>
+    </resultMap>
+
+    <!--
+        CREATE DEFINER=`root`@`localhost` PROCEDURE `query_book_by_id`(IN bookId int)
+        BEGIN
+	        SELECT *
+	        FROM t_book
+	        WHERE t_book.id = bookId;
+        END
+    -->
+    <select id="findById" resultMap="bookMap" statementType="CALLABLE">
+        { call query_book_by_id(#{bid, mode=IN, jdbcType=INTEGER}) }
+    </select>
+
+    <!--
+        CREATE DEFINER=`root`@`localhost` PROCEDURE `select_all_book`()
+        BEGIN
+            SELECT * FROM t_book;
+        END
+    -->
+    <select id="findAll" resultMap="bookMap" statementType="CALLABLE">
+        { call select_all_book() }
+    </select>
+
+</mapper>
